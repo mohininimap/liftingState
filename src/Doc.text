@@ -1,0 +1,26 @@
+State lifting=>I import child component in parent component and pass function as props.
+In child compoent onclick use parent function props.parentfunction name and pass data in that function 
+we can able to send data from child also
+-------------------------------
+destructure object data
+----
+destructure simple data
+------
+counter app 
+Install and use bootstrap
+using lifting state delete tag functionality and also destructue 
+
+because local state ->increment does but problem in reset so that why removing local state
+for taht i remove handle increment from child and place in to the parent
+
+controlled component=>doesn't have its own local state all the data via props and raise event when data need to be change
+
+dynamic index finding
+
+Reset value
+
+->counters=>array object add dynamic oject counter onclick
+-------------------------
+Javascript->toggle value
+show more array objcet onclick and return the value
+

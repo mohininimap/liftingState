@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Counters from './counter-remove-locally/Counters';
+import ParentOBJ from './destructe-ex-obj/Parent';
+import Parentdata from './destructure-ex-data/Paraentdata';
+import StateliftParent from './statelifting-ex/StateliftParent';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <StateliftParent /> */}
+      {/* <Parentdata/> */}
+      <Counters/>
+     
     </div>
   );
 }
